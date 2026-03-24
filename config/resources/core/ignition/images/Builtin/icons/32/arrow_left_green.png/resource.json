@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "arrow_left_green.png"
+  ],
+  "attributes": {
+    "width": 32,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-03-17T11:59:25Z"
+    },
+    "size": 554,
+    "lastModificationSignature": "7af91c955c6cd572b06e1b5a065d598b8abb4bd3f935cf12db7c7edd93c58265",
+    "height": 32
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "custom": {},
+  "params": {},
+  "permissions": {
+    "securityLevels": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "name": "Administrator"
+              }
+            ],
+            "name": "Roles"
+          }
+        ],
+        "name": "Authenticated"
+      }
+    ],
+    "type": "AllOf"
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Carousel"
+        },
+        "props": {
+          "path": "Templates/Carousel"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Overview"
+        },
+        "position": {
+          "size": "large"
+        },
+        "props": {
+          "path": "Templates/Overview"
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "breakpoint": 800
+    },
+    "type": "ia.container.breakpt"
+  }
+}

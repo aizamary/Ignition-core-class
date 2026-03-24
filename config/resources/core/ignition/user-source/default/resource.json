@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "description": "This user source profile was automatically created during a clean startup",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json",
+    "users.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-03-17T11:59:29Z"
+    },
+    "uuid": "7b79cb72-bb74-4dfa-84d3-b7b36b9d93ea",
+    "lastModificationSignature": "48c0730a697cad38344c27a6d53ed613e1fe77cdd4f3f94212943800975f8f5f",
+    "enabled": true
+  }
+}

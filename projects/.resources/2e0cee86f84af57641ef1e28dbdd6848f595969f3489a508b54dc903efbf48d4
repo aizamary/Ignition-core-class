@@ -1,0 +1,12 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#517FFF",
+      "color": "#FFFFFF",
+      "fontFamily": "Sans-serif",
+      "fontSize": "24px",
+      "fontWeight": "bold",
+      "textAlign": "center"
+    }
+  }
+}

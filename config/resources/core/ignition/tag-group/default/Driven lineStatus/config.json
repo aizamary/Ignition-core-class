@@ -1,0 +1,8 @@
+{
+  "config": {
+    "drivingComparisonValue": 1.0,
+    "drivingExpression": "{[default]lineStatus/lineStatusTag}",
+    "mode": "Driven",
+    "rate": 0.0
+  }
+}

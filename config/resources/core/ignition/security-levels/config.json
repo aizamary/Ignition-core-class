@@ -1,0 +1,66 @@
+{
+  "securityLevels": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "name": "Default"
+                    }
+                  ],
+                  "description": "Represents the security zones that a user has.",
+                  "name": "SecurityZones"
+                }
+              ],
+              "name": "Administrator"
+            },
+            {
+              "children": [],
+              "name": "Developer"
+            },
+            {
+              "children": [],
+              "name": "Maintenance"
+            },
+            {
+              "children": [],
+              "name": "Manager"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "name": "Default"
+                    }
+                  ],
+                  "description": "Represents the security zones that a user has.",
+                  "name": "SecurityZones"
+                }
+              ],
+              "name": "Operator"
+            },
+            {
+              "children": [],
+              "name": "Security"
+            }
+          ],
+          "description": "Represents the roles that a user has.",
+          "name": "Roles"
+        }
+      ],
+      "description": "Represents a user who has been authenticated by the system.",
+      "name": "Authenticated"
+    },
+    {
+      "children": [],
+      "name": "Administrator"
+    }
+  ]
+}

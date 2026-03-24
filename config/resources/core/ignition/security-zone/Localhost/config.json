@@ -1,0 +1,10 @@
+{
+  "directConnection": false,
+  "ipAddresses": [
+    "127.0.0.1"
+  ],
+  "isSecure": false,
+  "scopeClient": true,
+  "scopeDesigner": true,
+  "scopeGateway": true
+}

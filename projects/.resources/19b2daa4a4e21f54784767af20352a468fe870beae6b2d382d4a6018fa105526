@@ -1,0 +1,156 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 900,
+      "width": 900
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "height": 160,
+          "width": 120,
+          "x": 250.67000000000002,
+          "y": 398
+        },
+        "props": {
+          "liquidColor": "#C43B3B",
+          "tankColor": "#FFFFFF",
+          "value": 10
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "75% 50%"
+          },
+          "width": 129,
+          "x": 505.143,
+          "y": 457
+        },
+        "props": {
+          "text": "TANK LEVEL"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 32,
+          "width": 128,
+          "x": 630.33,
+          "y": 458
+        },
+        "props": {
+          "backgroundColor": "#000000",
+          "value": 19
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Slider"
+        },
+        "position": {
+          "height": 32,
+          "width": 192,
+          "x": 235.99668701171873,
+          "y": 623
+        },
+        "type": "ia.input.slider"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField"
+        },
+        "position": {
+          "height": 32,
+          "width": 150,
+          "x": 466.9966870117188,
+          "y": 620
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "MultiStateButton"
+        },
+        "position": {
+          "height": 120,
+          "width": 124,
+          "x": 638.33,
+          "y": 559
+        },
+        "props": {
+          "controlValue": 0,
+          "indicatorValue": 0,
+          "states": [
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "Hand",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#7CEA9C",
+                "classes": ""
+              },
+              "text": "Auto",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      },
+      {
+        "meta": {
+          "name": "Image"
+        },
+        "position": {
+          "height": 100,
+          "width": 100,
+          "x": 224,
+          "y": 211
+        },
+        "type": "ia.display.image"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

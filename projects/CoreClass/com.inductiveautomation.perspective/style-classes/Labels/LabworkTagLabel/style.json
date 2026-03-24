@@ -1,0 +1,10 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#181788",
+      "fontFamily": "Helvetica",
+      "fontSize": "14px",
+      "fontWeight": "bold"
+    }
+  }
+}

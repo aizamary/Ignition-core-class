@@ -1,0 +1,280 @@
+[
+  {
+    "typeColor": -10719104,
+    "name": "Motor",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Motor/Amps"
+        },
+        "dataType": "Float8",
+        "historyProvider": "DB",
+        "alarms": [
+          {
+            "mode": "AboveValue",
+            "name": "AMPS High Alarm",
+            "setpointA": {
+              "bindType": "Tag",
+              "value": "[.]Setpoint"
+            },
+            "HOA": {
+              "bindType": "Tag",
+              "value": "[.]HOA"
+            },
+            "displayPath": {
+              "bindType": "Expression",
+              "value": "\"\"Motor Line \" + {Line Number} + \" Amps High\""
+            }
+          }
+        ],
+        "historicalDeadbandStyle": "Analog_Compressed",
+        "name": "Amps",
+        "historyEnabled": true,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Motor/HOA"
+        },
+        "dataType": "Int2",
+        "historyProvider": "DB",
+        "historicalDeadbandStyle": "Discrete",
+        "name": "HOA",
+        "historyEnabled": true,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "Float8",
+        "historyProvider": "DB",
+        "historicalDeadbandStyle": "Discrete",
+        "name": "Setpoint",
+        "historyEnabled": true,
+        "value": 20.0,
+        "tagType": "AtomicTag"
+      }
+    ]
+  },
+  {
+    "name": "Pump",
+    "typeId": "",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Flow Rate"
+        },
+        "dataType": "Float8",
+        "name": "Flow Rate",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Mode"
+        },
+        "dataType": "Int2",
+        "name": "Mode",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Pressure"
+        },
+        "dataType": "Float4",
+        "historyProvider": "DB",
+        "alarms": [
+          {
+            "mode": "AboveValue",
+            "name": "PressureAlarm",
+            "label": "",
+            "priority": "Medium",
+            "setpointA": {
+              "bindType": "Tag",
+              "value": "[.]../Motor/Setpoint"
+            },
+            "displayPath": {
+              "bindType": "Expression",
+              "value": "\"Pump \" + {Line Number} + \" Pressure\""
+            }
+          }
+        ],
+        "name": "Pressure",
+        "historyEnabled": true,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "memory",
+        "name": "Setpoint",
+        "value": 40,
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Status"
+        },
+        "dataType": "Int2",
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Pump/Total Volume"
+        },
+        "dataType": "Float8",
+        "historyProvider": "DB",
+        "historicalDeadbandMode": "Percent",
+        "historicalDeadbandStyle": "Analog_Compressed",
+        "name": "Total Volume",
+        "historyEnabled": true,
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "name": "Valve",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Valve/Position"
+        },
+        "dataType": "Float8",
+        "name": "Position",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Valve/Status"
+        },
+        "dataType": "Int2",
+        "name": "Status",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "name": "Sensor",
+    "parameters": {
+      "Line Number": {
+        "dataType": "Integer",
+        "value": null
+      }
+    },
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Sensor/Error Code"
+        },
+        "dataType": "String",
+        "name": "Error Code",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      },
+      {
+        "valueSource": "expr",
+        "expression": "{[~]Generic/Random/RandomInteger1.value}",
+        "name": "Setpoint",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "opc",
+        "opcItemPath": {
+          "bindType": "parameter",
+          "binding": "ns\u003d1;s\u003d[Plant Site]Folsom Plant/Line {Line Number}/Sensor/Value"
+        },
+        "dataType": "Float4",
+        "name": "Value",
+        "tagType": "AtomicTag",
+        "opcServer": "Ignition OPC UA Server"
+      }
+    ]
+  },
+  {
+    "name": "OEE",
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "derived",
+        "sourceTagPath": "[.]Raw data/Rå_mode",
+        "name": "Mode",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "expr",
+        "name": "New Tag 1",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "DataSet",
+        "name": "New Tag 2",
+        "tagType": "AtomicTag"
+      },
+      {
+        "name": "Raw data",
+        "tagType": "Folder",
+        "tags": [
+          {
+            "valueSource": "opc",
+            "name": "Rå_mode",
+            "tagType": "AtomicTag"
+          },
+          {
+            "valueSource": "opc",
+            "name": "Rå_status",
+            "tagType": "AtomicTag"
+          }
+        ]
+      }
+    ]
+  }
+]

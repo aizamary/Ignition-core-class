@@ -1,0 +1,6 @@
+{
+  "profile": {
+    "retentionDays": 7,
+    "type": "local"
+  }
+}

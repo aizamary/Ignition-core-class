@@ -1,0 +1,905 @@
+{
+  "custom": {},
+  "params": {
+    "LineNumber": 1
+  },
+  "propConfig": {
+    "params.LineNumber": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 300,
+      "width": 300
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "54px"
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "\"Line \"+ {view.params.LineNumber} + \" Motor\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "Header",
+            "overflowWrap": "break-word",
+            "textTransform": "uppercase"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Motor 18"
+        },
+        "position": {
+          "basis": "88px"
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#474747",
+                      "style": {
+                        "stopColor": "#474747"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.16",
+                      "stopColor": "#494949",
+                      "style": {
+                        "stopColor": "#494949"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.24",
+                      "stopColor": "#515151",
+                      "style": {
+                        "stopColor": "#515151"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.3",
+                      "stopColor": "#5E5E5E",
+                      "style": {
+                        "stopColor": "#5E5E5E"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.35",
+                      "stopColor": "#707070",
+                      "style": {
+                        "stopColor": "#707070"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.39",
+                      "stopColor": "#898989",
+                      "style": {
+                        "stopColor": "#898989"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.43",
+                      "stopColor": "#A6A6A6",
+                      "style": {
+                        "stopColor": "#A6A6A6"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.47",
+                      "stopColor": "#C9C9C9",
+                      "style": {
+                        "stopColor": "#C9C9C9"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#F1F1F1",
+                      "style": {
+                        "stopColor": "#F1F1F1"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#474747",
+                      "style": {
+                        "stopColor": "#474747"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "57.3213",
+                  "x2": "57.3213",
+                  "y1": "0.6768",
+                  "y2": "56.5327"
+                },
+                {
+                  "d": "M26.689,38.851h59.909l-0.226-8.896l0.226-10.022l0.227-8.559   l0.225-5.52L87.5,3.603l0.676,2.252l0.225,5.52l0.226,8.559l0.228,10.022l-0.229,10.247L88.4,48.761l-0.226,5.518L87.5,56.306   H69.594v0.449h8.446v2.703H59.572v-2.703h1.126v-0.449H45.045v0.449h1.126v2.703H27.815v-2.703h8.333v-0.449h-10.36",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Motor_Body",
+              "name": "Group_Motor_Body",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#474747",
+                      "style": {
+                        "stopColor": "#474747"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.16",
+                      "stopColor": "#494949",
+                      "style": {
+                        "stopColor": "#494949"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.24",
+                      "stopColor": "#515151",
+                      "style": {
+                        "stopColor": "#515151"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.3",
+                      "stopColor": "#5E5E5E",
+                      "style": {
+                        "stopColor": "#5E5E5E"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.35",
+                      "stopColor": "#707070",
+                      "style": {
+                        "stopColor": "#707070"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.39",
+                      "stopColor": "#898989",
+                      "style": {
+                        "stopColor": "#898989"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.43",
+                      "stopColor": "#A6A6A6",
+                      "style": {
+                        "stopColor": "#A6A6A6"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.47",
+                      "stopColor": "#C9C9C9",
+                      "style": {
+                        "stopColor": "#C9C9C9"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.5",
+                      "stopColor": "#F1F1F1",
+                      "style": {
+                        "stopColor": "#F1F1F1"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#474747",
+                      "style": {
+                        "stopColor": "#474747"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "14.5269",
+                  "x2": "14.5269",
+                  "y1": "0.6768",
+                  "y2": "60.1353"
+                },
+                {
+                  "d": "M25.788,56.306l-0.225,3.152H2.14l0.226-6.982l0.45-10.246   v-25L2.366,7.207L2.14,0.226V0h23.423l1.126,14.752l0.225,14.978l-0.225,9.121",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "cx": "1.554",
+                  "cy": "30.263",
+                  "fill": {
+                    "paint": "#7F7F7F"
+                  },
+                  "name": "ellipse",
+                  "rx": "1.217",
+                  "ry": "29.773",
+                  "type": "ellipse"
+                }
+              ],
+              "id": "Group_Motor_Bodyrear",
+              "name": "Group_Motor_Bodyrear",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.27",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_3_",
+                  "name": "SVGID_3_",
+                  "type": "linearGradient",
+                  "x1": "56.8691",
+                  "x2": "56.8691",
+                  "y1": "20.9463",
+                  "y2": "56.8696"
+                },
+                {
+                  "d": "M88.176,39.188H25.563V3.265h51.576H87.5l0.45,13.401   L88.176,39.188z",
+                  "fill": {
+                    "url": "url(#SVGID_3_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Motor_Top",
+              "name": "Group_Motor_Top",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M25.563,6.193H87.5V3.265H77.139H25.563V6.193z",
+                  "fill": {
+                    "paint": "#7F7F7F"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M78.04,35.022H26.014v2.59H78.04V35.022z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M79.166,35.022H86.6v2.59h-7.434V35.022z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M78.04,40.09H26.014v2.703H78.04V40.09z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M79.166,40.09H86.6v2.703h-7.434V40.09z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M78.04,50.338H26.014v2.702H78.04V50.338z",
+                  "fill": {
+                    "paint": "#B2B2B2"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M79.166,50.338H86.6v2.702h-7.434V50.338z",
+                  "fill": {
+                    "paint": "#B2B2B2"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M79.166,45.045H86.6v2.702h-7.434V45.045z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M78.04,45.045H26.014v2.702H78.04V45.045z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Fins",
+              "name": "Group_Fins",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_4_",
+                  "name": "SVGID_4_",
+                  "type": "linearGradient",
+                  "x1": "89.2441",
+                  "x2": "89.2441",
+                  "y1": "20.9463",
+                  "y2": "38.9644"
+                },
+                {
+                  "d": "M89.863,21.171h-1.238v18.018h1.238V21.171z",
+                  "fill": {
+                    "url": "url(#SVGID_4_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_5_",
+                  "name": "SVGID_5_",
+                  "type": "linearGradient",
+                  "x1": "90.7646",
+                  "x2": "90.7646",
+                  "y1": "23.9873",
+                  "y2": "36.1489"
+                },
+                {
+                  "d": "M89.863,23.986v12.162h1.127l0.451-0.676l0.225-0.899v-8.784   l-0.225-1.352l-0.451-0.45H89.863z",
+                  "fill": {
+                    "url": "url(#SVGID_5_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#575757",
+                      "style": {
+                        "stopColor": "#575757"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#575757",
+                      "style": {
+                        "stopColor": "#575757"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_6_",
+                  "name": "SVGID_6_",
+                  "type": "linearGradient",
+                  "x1": "101.8574",
+                  "x2": "101.8574",
+                  "y1": "25.5625",
+                  "y2": "34.3472"
+                },
+                {
+                  "d": "M112.049,25.788H91.666v8.784h20.383V25.788z",
+                  "fill": {
+                    "url": "url(#SVGID_6_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Shaft",
+              "name": "Group_Shaft",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M65.09,14.189H35.698V41.44H65.09V14.189z",
+                  "fill": {
+                    "paint": "#2E2E2E"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#F5F5F5",
+                      "style": {
+                        "stopColor": "#F5F5F5"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#4D4D4D",
+                      "style": {
+                        "stopColor": "#4D4D4D"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 60.1348)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_7_",
+                  "name": "SVGID_7_",
+                  "type": "linearGradient",
+                  "x1": "36.374",
+                  "x2": "65.7656",
+                  "y1": "31.7568",
+                  "y2": "31.7568"
+                },
+                {
+                  "d": "M65.766,14.865H36.374v27.026h29.392V14.865z",
+                  "fill": {
+                    "url": "url(#SVGID_7_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Boxback",
+              "name": "Group_Boxback",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M63.738,19.819H40.315l0.676,18.918H62.5L63.738,19.819z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M39.189,18.693l1.126,1.126l0.676,18.918H40.54L39.189,18.693z",
+                  "fill": {
+                    "paint": "#666666"
+                  },
+                  "name": "path",
+                  "type": "path"
+                },
+                {
+                  "d": "M63.738,19.819H40.315l-1.126-1.351h23.536L63.738,19.819z",
+                  "fill": {
+                    "paint": "#CCCCCC"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M64.189,41.216h-1.127l-0.563-0.9l0.563-0.9h1.127l0.676,0.9   L64.189,41.216z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M64.189,17.567h-1.127l-0.563-0.9l0.563-0.901h1.127l0.676,0.901   L64.189,17.567z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M39.189,17.567h-1.352l-0.45-0.9l0.45-0.901h1.352l0.676,0.901   L39.189,17.567z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M39.189,41.216h-1.352l-0.45-0.9l0.45-0.9h1.352l0.676,0.9   L39.189,41.216z",
+                  "fill": {
+                    "paint": "#E5E5E5"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Box",
+              "name": "Group_Box",
+              "type": "group"
+            }
+          ],
+          "style": {
+            "padding": 5
+          },
+          "viewBox": "0 0 112.5 60.135"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "basis": "84px"
+        },
+        "props": {
+          "path": "Templates/FlexLED",
+          "style": {
+            "padding": 5
+          }
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "MultiStateButton"
+        },
+        "position": {
+          "basis": "74px"
+        },
+        "propConfig": {
+          "props.controlValue": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Motor/Line {LineNumber}/HOA"
+              },
+              "type": "tag"
+            }
+          },
+          "props.indicatorValue": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Motor/Line {LineNumber}/HOA"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "defaultSelectedStyle": {
+            "backgroundColor": "#656786",
+            "color": "#FFFFFF"
+          },
+          "states": [
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "Hand",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#7CEA9C",
+                "classes": ""
+              },
+              "text": "Auto",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "alignContent": "space-around",
+      "direction": "column",
+      "justify": "space-evenly"
+    },
+    "type": "ia.container.flex"
+  }
+}

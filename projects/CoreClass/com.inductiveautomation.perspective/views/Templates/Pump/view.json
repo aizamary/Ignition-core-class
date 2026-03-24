@@ -1,0 +1,737 @@
+{
+  "custom": {},
+  "params": {
+    "LineNumber": 1
+  },
+  "propConfig": {
+    "params.LineNumber": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 400,
+      "width": 500
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 0.125,
+          "width": 1
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": "\"Line \" + {view.params.LineNumber} + \" Pump\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "Header"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Horizontal pump 5"
+        },
+        "position": {
+          "height": 0.225,
+          "width": 0.27,
+          "x": 0.0847,
+          "y": 0.705
+        },
+        "props": {
+          "elements": [
+            {
+              "name": "symbol",
+              "type": "symbol"
+            },
+            {
+              "elements": [
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#808080",
+                      "style": {
+                        "stopColor": "#808080"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.51",
+                      "stopColor": "#BFBFBF",
+                      "style": {
+                        "stopColor": "#BFBFBF"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#808080",
+                      "style": {
+                        "stopColor": "#808080"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 47.52)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_1_",
+                  "name": "SVGID_1_",
+                  "type": "linearGradient",
+                  "x1": "56.2485",
+                  "x2": "56.2485",
+                  "y1": "2.441406e-004",
+                  "y2": "47.5203"
+                },
+                {
+                  "d": "M22.412,32.431L19.935,44.93h-2.478v2.59h19.931v-2.59h-2.477   l7.544-7.432h19.932l7.545,7.432h-2.478v2.59h19.931v-2.59h-2.478L82.43,32.431l4.954-2.478h22.521l2.591-2.479V4.954l-2.591-2.478   H84.908L72.409,4.954L69.932,0H34.911l-2.478,4.954h-4.955L26.24,2.478H9.913l-9.91,2.478v24.999l9.91,2.478L22.412,32.431   L22.412,32.431z",
+                  "fill": {
+                    "url": "url(#SVGID_1_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Main_Chamber",
+              "name": "Group_Main_Chamber",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M27.479,6.194v23.761",
+                  "fill": {
+                    "paint": "transparent"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M32.434,7.432h6.193l3.829,1.239h19.931l3.829-1.239h6.193",
+                  "fill": {
+                    "paint": "transparent"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M69.932,44.93h14.978",
+                  "fill": {
+                    "paint": "transparent"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#808080",
+                      "style": {
+                        "stopColor": "#808080"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 47.52)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_2_",
+                  "name": "SVGID_2_",
+                  "type": "linearGradient",
+                  "x1": "62.3867",
+                  "x2": "82.4316",
+                  "y1": "8.8391",
+                  "y2": "8.8391"
+                },
+                {
+                  "d": "M82.432,43.692H71.17l-8.783-8.782l20.045-1.239V43.692",
+                  "fill": {
+                    "url": "url(#SVGID_2_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M19.935,44.93h14.977",
+                  "fill": {
+                    "paint": "transparent"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0.01",
+                      "stopColor": "#808080",
+                      "style": {
+                        "stopColor": "#808080"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#E0E0E0",
+                      "style": {
+                        "stopColor": "#E0E0E0"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 47.52)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_3_",
+                  "name": "SVGID_3_",
+                  "type": "linearGradient",
+                  "x1": "22.4121",
+                  "x2": "42.4561",
+                  "y1": "8.8391",
+                  "y2": "8.8391"
+                },
+                {
+                  "d": "M22.412,43.692h11.261l8.783-8.782L22.412,33.67V43.692",
+                  "fill": {
+                    "url": "url(#SVGID_3_)"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Pump_Support",
+              "name": "Group_Pump_Support",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "d": "M81.191,0h2.479v34.908h-2.479V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M84.908,0h2.479v34.908h-2.479V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M91.215,0h1.238v34.908h-1.238V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M93.691,0h1.238v34.908h-1.238V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M9.913,0h1.238v34.908H9.913V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M12.39,0h1.239v34.908H12.39V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M17.457,0h2.478v34.908h-2.478V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                },
+                {
+                  "d": "M21.173,0h2.478v34.908h-2.478V0z",
+                  "fill": {
+                    "paint": "#C0C0C0"
+                  },
+                  "name": "path",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "path"
+                }
+              ],
+              "id": "Group_Flanges",
+              "name": "Group_Flanges",
+              "type": "group"
+            },
+            {
+              "elements": [
+                {
+                  "cx": "52.4775",
+                  "cy": "18.8049",
+                  "elements": [
+                    {
+                      "name": "stop",
+                      "offset": "0",
+                      "stopColor": "#CCCCCC",
+                      "style": {
+                        "stopColor": "#CCCCCC"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.43",
+                      "stopColor": "#C6C6C6",
+                      "style": {
+                        "stopColor": "#C6C6C6"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.44",
+                      "stopColor": "#8C8C8C",
+                      "style": {
+                        "stopColor": "#8C8C8C"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.53",
+                      "stopColor": "#8C8C8C",
+                      "style": {
+                        "stopColor": "#8C8C8C"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.55",
+                      "stopColor": "#C1C1C1",
+                      "style": {
+                        "stopColor": "#C1C1C1"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "0.78",
+                      "stopColor": "#B6B6B6",
+                      "style": {
+                        "stopColor": "#B6B6B6"
+                      },
+                      "type": "stop"
+                    },
+                    {
+                      "name": "stop",
+                      "offset": "1",
+                      "stopColor": "#737373",
+                      "style": {
+                        "stopColor": "#737373"
+                      },
+                      "type": "stop"
+                    }
+                  ],
+                  "gradientTransform": "matrix(1 0 0 -1 0 47.52)",
+                  "gradientUnits": "userSpaceOnUse",
+                  "id": "SVGID_4_",
+                  "name": "SVGID_4_",
+                  "r": "17.4541",
+                  "type": "radialGradient"
+                },
+                {
+                  "cx": "52.478",
+                  "cy": "28.715",
+                  "fill": {
+                    "url": "url(#SVGID_4_)"
+                  },
+                  "name": "circle",
+                  "r": "17.454",
+                  "stroke": {
+                    "paint": "#4C4C4C",
+                    "width": "0.25"
+                  },
+                  "type": "circle"
+                }
+              ],
+              "id": "Group_Drivershaft_Flange",
+              "name": "Group_Drivershaft_Flange",
+              "type": "group"
+            }
+          ],
+          "viewBox": "0 0 112.5 47.52"
+        },
+        "type": "ia.shapes.svg"
+      },
+      {
+        "meta": {
+          "name": "MultiStateButton"
+        },
+        "position": {
+          "height": 0.3,
+          "width": 0.53,
+          "x": 0.416,
+          "y": 0.17
+        },
+        "props": {
+          "controlValue": 0,
+          "indicatorValue": 0,
+          "orientation": "row",
+          "states": [
+            {
+              "selectedStyle": {
+                "backgroundColor": "#FFF275",
+                "classes": ""
+              },
+              "text": "Hand",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 2
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#F84553",
+                "classes": ""
+              },
+              "text": "Off",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 0
+            },
+            {
+              "selectedStyle": {
+                "backgroundColor": "#7CEA9C",
+                "classes": ""
+              },
+              "text": "Auto",
+              "unselectedStyle": {
+                "classes": ""
+              },
+              "value": 1
+            }
+          ]
+        },
+        "type": "ia.input.multi-state-button"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 0.08,
+          "width": 0.26,
+          "x": 0.686,
+          "y": 0.54
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Pump/Line {LineNumber}/Pressure.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_0"
+        },
+        "position": {
+          "height": 0.08,
+          "width": 0.26,
+          "x": 0.686,
+          "y": 0.7525
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Pump/Line {LineNumber}/Total Volume.value"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 0.0875,
+          "width": 0.3,
+          "x": 0.07,
+          "y": 0.17
+        },
+        "props": {
+          "style": {
+            "classes": "TagLabels"
+          },
+          "text": "Flow Rate:"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 0.0875,
+          "width": 0.3,
+          "x": 0.0698,
+          "y": 0.5763
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "expression": ""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "classes": "TagLabels"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 0.0875,
+          "width": 0.24,
+          "x": 0.412,
+          "y": 0.7525
+        },
+        "props": {
+          "style": {
+            "classes": "TagLabels"
+          },
+          "text": "Total Volume:"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_3"
+        },
+        "position": {
+          "height": 0.0875,
+          "rotate": {
+            "anchor": "50% 13%"
+          },
+          "width": 0.24,
+          "x": 0.412,
+          "y": 0.54
+        },
+        "props": {
+          "style": {
+            "classes": "TagLabels"
+          },
+          "text": "Pressure: "
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "SimpleGauge"
+        },
+        "position": {
+          "height": 0.335,
+          "width": 0.422,
+          "x": -0.0002,
+          "y": 0.2338
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "indirect",
+                "references": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "tagPath": "[default]Pump/Line {LineNumber}/Flow Rate"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "maxValue": 5
+        },
+        "type": "ia.chart.simple-gauge"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "draggable": true,
+                "id": "w_qM83dj",
+                "modal": false,
+                "overlayDismiss": false,
+                "position": {
+                  "relativeLocation": "center"
+                },
+                "positionType": "relative",
+                "resizable": true,
+                "showCloseIcon": true,
+                "type": "open",
+                "viewParams": {
+                  "LineNumber": "{view.params.LineNumber}"
+                },
+                "viewPath": "Templates/Pump",
+                "viewportBound": false
+              },
+              "scope": "C",
+              "type": "popup"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 0.085,
+          "width": 0.16,
+          "x": 0.37,
+          "y": 0.9125
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root",
+      "tooltip": {
+        "style": {
+          "borderStyle": "outset"
+        }
+      }
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "type": "ia.container.coord"
+  }
+}

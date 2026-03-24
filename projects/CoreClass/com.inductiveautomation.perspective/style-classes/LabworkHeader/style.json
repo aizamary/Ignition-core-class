@@ -1,0 +1,16 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#82A4C15C",
+      "borderStyle": "dashed",
+      "color": "#1C1A9C",
+      "cursor": "text",
+      "fontFamily": "helvetica",
+      "fontSize": "26px",
+      "fontWeight": "bold",
+      "margin": "1px",
+      "padding": "1px",
+      "textAlign": "center"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Child Project",
+  "description": "",
+  "parent": "ParentProj",
+  "enabled": true,
+  "inheritable": false
+}

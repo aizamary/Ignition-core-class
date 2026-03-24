@@ -1,0 +1,8 @@
+[
+  {
+    "valueSource": "memory",
+    "dataType": "Boolean",
+    "name": "lineStatusTag",
+    "tagType": "AtomicTag"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "valueSource": "memory",
+    "name": "TempF",
+    "defaultValue": 34,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "derived",
+    "deriveExpressionGetter": "5/9*({source}-32)",
+    "sourceTagPath": "[.]TempF",
+    "name": "TempC",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "Int1",
+    "defaultValue": 3,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "name": "Int2",
+    "defaultValue": 2,
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "{[.]Int1}+{[.]Int2}",
+    "deriveExpressionGetter": "{[.]Int2}+{[.]Int1}",
+    "name": "Sum",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "if({[.]TempF}\u003e90, \"True\", \"False\")",
+    "dataType": "String",
+    "name": "Above90",
+    "executionMode": "EventDriven",
+    "tagGroup": "Default",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "memory",
+    "dataType": "String",
+    "name": "FahrOrCel",
+    "defaultValue": "Celsius",
+    "tagType": "AtomicTag"
+  },
+  {
+    "valueSource": "expr",
+    "expression": "if({[.]FahrOrCel}\u003d \"Celsius\", {[.]TempC}, {[.]TempF})",
+    "name": "TempSelect",
+    "tagType": "AtomicTag"
+  }
+]

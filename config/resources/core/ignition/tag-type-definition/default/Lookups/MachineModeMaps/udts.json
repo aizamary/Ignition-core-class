@@ -1,0 +1,27 @@
+[
+  {
+    "name": "OEE_mode",
+    "typeId": "",
+    "tagType": "UdtType",
+    "tags": [
+      {
+        "valueSource": "memory",
+        "dataType": "DataSet",
+        "name": "Mode_map",
+        "value": "{\"columns\":[{\"name\":\"Value\",\"type\":\"java.lang.Integer\"},{\"name\":\"Operating State\",\"type\":\"java.lang.String\"}],\"rows\":[[0,\"Undefined\"],[1,\"Stopped\"],[2,\"Starting\"],[4,\"Prepared\"],[8,\"Lack\"],[16,\"Tailback\"],[32,\"Lack Branch Line\"],[64,\"Tailback Branch Line\"],[128,\"Operating\"],[256,\"Stopping\"],[512,\"Aborting\"],[1024,\"Equipment Failure\"],[2048,\"External Failure\"],[4096,\"Emergency Stop\"],[8192,\"Holding\"],[16384,\"Held\"],[32768,\"Idle\"]]}",
+        "tagType": "AtomicTag"
+      },
+      {
+        "valueSource": "memory",
+        "dataType": "Document",
+        "name": "New Tag",
+        "value": {
+          "0": "Undefined",
+          "1": "Stopped",
+          "2": "Starting"
+        },
+        "tagType": "AtomicTag"
+      }
+    ]
+  }
+]

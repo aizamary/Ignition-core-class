@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": "Components Lab"
+    },
+    "/Breakpoint-View": {
+      "title": "",
+      "viewPath": "Breakpoint View"
+    },
+    "/alarms": {
+      "title": "",
+      "viewPath": "Alarms"
+    },
+    "/new-page": {
+      "title": "",
+      "viewPath": "Templates/Pump Overview"
+    },
+    "/report": {
+      "viewPath": "Report"
+    },
+    "/security": {
+      "title": "",
+      "viewPath": "Security"
+    },
+    "/tag-history": {
+      "viewPath": "Tag History"
+    },
+    "/transaction-group-view": {
+      "viewPath": "Transaction Group View"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "left-right"
+  }
+}

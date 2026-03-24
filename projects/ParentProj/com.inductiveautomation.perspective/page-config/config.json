@@ -1,0 +1,10 @@
+{
+  "pages": {
+    "/": {
+      "viewPath": "Embedded Views/Parent View"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}

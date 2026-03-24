@@ -1,0 +1,330 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PowerChart"
+        },
+        "position": {
+          "basis": "600px"
+        },
+        "props": {
+          "axes": [
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "grid": {
+                "color": "#757A7F",
+                "dashArray": 0,
+                "opacity": 0.9,
+                "style": {
+                  "classes": ""
+                },
+                "visible": false
+              },
+              "label": {
+                "font": {
+                  "color": "#757A7F",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": ""
+              },
+              "name": "Default",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": null,
+                "min": null
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#757A7F",
+                "count": "Auto",
+                "label": {
+                  "font": {
+                    "color": "#757A7F",
+                    "size": 10
+                  },
+                  "format": "Auto",
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 60
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0",
+              "grid": {
+                "color": "#757A7F",
+                "dashArray": 0,
+                "opacity": 0.9,
+                "style": {
+                  "classes": ""
+                },
+                "visible": true
+              },
+              "label": {
+                "font": {
+                  "color": "#757A7F",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": "Pressure"
+              },
+              "name": "Pressure",
+              "position": "right",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#757A7F",
+                "count": 1,
+                "label": {
+                  "font": {
+                    "color": "#757A7F",
+                    "size": 10
+                  },
+                  "format": "Auto",
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 60
+            }
+          ],
+          "config": {
+            "measureOfTime": "minutes",
+            "rangeEndDate": {
+              "$": [
+                "ts",
+                0,
+                1772633542122
+              ],
+              "$ts": 1772633541103
+            },
+            "rangeStartDate": {
+              "$": [
+                "ts",
+                0,
+                1772633542122
+              ],
+              "$ts": 1772633242103
+            },
+            "unitOfTime": 5,
+            "visibility": {
+              "showTagBrowser": true
+            }
+          },
+          "interaction": {
+            "chartZoomLevel": 1,
+            "mode": "rangeBrush",
+            "rangeZoomLevel": 1,
+            "xTrace": {
+              "values": [
+                0.1995351170568562
+              ]
+            }
+          },
+          "pens": [
+            {
+              "axis": "",
+              "data": {
+                "aggregateMode": "Average",
+                "source": "histprov:DB:/drv:coreclass:default:/tag:pump/line 4/total volume"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveStepAfter",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "area"
+              },
+              "enabled": true,
+              "name": "total volume",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Pressure",
+              "data": {
+                "aggregateMode": "default",
+                "source": "histprov:DB:/drv:coreclass:default:/tag:pump/line 1/pressure"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#E5C494",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#e5c494",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#E5C494",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#e5c494",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#E5C494",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#e5c494",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 12
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#E5C494",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#e5c494",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "pressure",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            }
+          ],
+          "plots": [
+            {
+              "color": "#FFFFFF",
+              "markers": [],
+              "relativeWeight": 1,
+              "style": {
+                "classes": ""
+              }
+            },
+            {
+              "color": "#FFFFFF",
+              "markers": [],
+              "relativeWeight": 1,
+              "style": {
+                "classes": ""
+              }
+            },
+            {
+              "color": "#FFFFFF",
+              "markers": [],
+              "relativeWeight": 2,
+              "style": {
+                "classes": ""
+              }
+            }
+          ]
+        },
+        "type": "ia.chart.powerchart"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

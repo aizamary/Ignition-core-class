@@ -1,0 +1,73 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "TextField"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "placeholder": "Enter text:"
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "meta": {
+          "name": "AlarmStatusTable_0"
+        },
+        "position": {
+          "basis": "400px",
+          "grow": 1
+        },
+        "propConfig": {
+          "props.filters.active.conditions.displayPath": {
+            "binding": {
+              "config": {
+                "expression": "\"*\" + {../TextField.props.text} + \"*\""
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "filters": {
+            "active": {
+              "conditions": {}
+            }
+          },
+          "toolbar": {
+            "enabled": false
+          }
+        },
+        "type": "ia.display.alarmstatustable"
+      },
+      {
+        "meta": {
+          "name": "AlarmJournalTable"
+        },
+        "position": {
+          "basis": "400px",
+          "grow": 1
+        },
+        "props": {
+          "toolbar": {
+            "enabled": false
+          }
+        },
+        "type": "ia.display.alarmjournaltable"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

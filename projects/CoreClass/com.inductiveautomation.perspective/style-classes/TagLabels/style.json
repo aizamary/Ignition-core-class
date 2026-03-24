@@ -1,0 +1,12 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#C6ECFB",
+      "color": "#091CB6",
+      "fontFamily": "san-serif",
+      "fontSize": "16px",
+      "fontWeight": "200",
+      "textAlign": "center"
+    }
+  }
+}

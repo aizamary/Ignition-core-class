@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "uuid": "1",
+      "username": "admin",
+      "schedule": "Always",
+      "password": "[21b848dd]99afe9b4a2167bb159255638bbf88c5d8f7edc004b0816efbe788589485fba5f",
+      "passwordDate": "20250224.210142398+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [
+        "8ebde44e-3a97-4694-9612-52add773c4b1"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": [
+        {
+          "contactType": "email",
+          "value": "admin@mycompany.com",
+          "order": 0
+        }
+      ]
+    },
+    {
+      "uuid": "3",
+      "username": "userA",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[C60CA9E7]132f2695d8f93b4f24d106710150f53082e753d5a551d73fd0b6d845a8b868b1",
+      "passwordDate": "20260304.092725544+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [
+        "a9afc308-83ae-4b0b-a1cc-f93c2ffa8491"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "4",
+      "username": "guest",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[25297A16]4ad91e4a259f52ce2fe4bbe37b6bdeafbd4a6c56ccd5ec9af0622e4346adad92",
+      "passwordDate": "20260304.092741182+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "5",
+      "username": "Tim",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[50245DC2]2f6c025ee80a7d64cd3ba71084dc574f3296aa4108c6ec9afe80925495d8b646",
+      "passwordDate": "20260304.093114333+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [
+        "4663e4e7-7efc-489d-a0db-ab41c25841f7"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "6",
+      "username": "Jane",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[545271F1]81cdd9fabe7e52996d85b99d75cdd5187fbf3d0842c061093dc3badcf7037df7",
+      "passwordDate": "20260304.093203562+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [
+        "6377ab0d-7f8d-4329-8688-70db140a2eba"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "7",
+      "username": "Mark",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[1B124EFA]d48dd7c0bf86c6833b34e57c23c085c00e31fc3972f0525dc8503681e7b41ae1",
+      "passwordDate": "20260304.093232634+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [
+        "0124f507-d2da-48f1-8c66-4202d6d5b836"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    },
+    {
+      "uuid": "8",
+      "username": "Sally",
+      "schedule": "Always",
+      "language": "en",
+      "password": "[20EA3E3B]ed001f67d1f035a0e9bb7390761785f684d5f833d2e8b6fc5201d31dc83c5fb7",
+      "passwordDate": "20260304.093301018+0100",
+      "passwordHistory": [],
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100",
+      "roles": [
+        "11bab57d-a0da-4594-8e51-01ad8630cb92"
+      ],
+      "extraProps": [
+        {
+          "propertyKey": "user.pin"
+        }
+      ],
+      "scheduleAdjustments": [],
+      "contactInfos": []
+    }
+  ],
+  "roles": [
+    {
+      "uuid": "8ebde44e-3a97-4694-9612-52add773c4b1",
+      "rolename": "Administrator",
+      "description": "",
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100"
+    },
+    {
+      "uuid": "a9afc308-83ae-4b0b-a1cc-f93c2ffa8491",
+      "rolename": "Operator",
+      "description": "",
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100"
+    },
+    {
+      "uuid": "0124f507-d2da-48f1-8c66-4202d6d5b836",
+      "rolename": "Manager",
+      "description": "",
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100"
+    },
+    {
+      "uuid": "4663e4e7-7efc-489d-a0db-ab41c25841f7",
+      "rolename": "Security",
+      "description": "",
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100"
+    },
+    {
+      "uuid": "11bab57d-a0da-4594-8e51-01ad8630cb92",
+      "rolename": "Maintenance",
+      "description": "",
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100"
+    },
+    {
+      "uuid": "6377ab0d-7f8d-4329-8688-70db140a2eba",
+      "rolename": "Developer",
+      "description": "",
+      "createdDate": "20260317.125929644+0100",
+      "lastModifiedDate": "20260317.125929644+0100"
+    }
+  ]
+}

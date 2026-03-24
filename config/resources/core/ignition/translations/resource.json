@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "no.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "8.3-migration",
+      "timestamp": "2026-03-17T11:59:24Z"
+    },
+    "ignorePunctuation": false,
+    "caseInsensitive": false,
+    "lastModificationSignature": "3a5c207eb0443669619e095501d7f6ddd77a38bed9f5944a337740e5c9e44c5a",
+    "ignoreWhitespace": false,
+    "ignoreTags": false
+  }
+}
